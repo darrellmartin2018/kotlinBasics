@@ -3,16 +3,16 @@
 // help link: https://kotlinlang.org/docs/reference/basic-syntax.html
 
 fun main(args: Array<String>) {
-	val sample1: Byte = 0x3a
-    val sample2: Byte = 58
-    val heartRate: Int = 85
+    val sample1: Byte = 0x3a
+    var sample2: Byte = 58
+    var heartRate: Int = 85
     var deposits: Double = 135002796.0
-    var acceleration: Float = 9.800F
+    val acceleration: Float = 9.800F
     var mass: Float = 14.6F
-    val distance: Double = 129.763001
-    val lost: Boolean = true
-    val expensive: Boolean = true
-    val choice: Int = 2
+    var distance: Double = 129.763001
+    var lost: Boolean = true
+    var expensive: Boolean = true
+    var choice: Int = 2
     val integral: Char = '\u222B'
     val greeting: String = "Hello"
     var name: String = "Karen"
